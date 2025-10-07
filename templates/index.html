@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SDSS Galaxy Classification</title>
+</head>
+<body>
+    <h1>SDSS Galaxy Morphology Prediction</h1>
+    <form action="/predict" method="POST">
+        <label for="r">r:</label>
+        <input type="text" id="r" name="r" required><br><br>
+
+        <label for="i">i:</label>
+        <input type="text" id="i" name="i" required><br><br>
+
+        <label for="z">z:</label>
+        <input type="text" id="z" name="z" required><br><br>
+
+        <label for="petroRad_g">petroRad_g:</label>
+        <input type="text" id="petroRad_g" name="petroRad_g" required><br><br>
+
+        <label for="petroRad_r">petroRad_r:</label>
+        <input type="text" id="petroRad_r" name="petroRad_r" required><br><br>
+
+        <label for="petroR50_u">petroR50_u:</label>
+        <input type="text" id="petroR50_u" name="petroR50_u" required><br><br>
+
+        <label for="petroR50_g">petroR50_g:</label>
+        <input type="text" id="petroR50_g" name="petroR50_g" required><br><br>
+
+        <label for="petroR50_i">petroR50_i:</label>
+        <input type="text" id="petroR50_i" name="petroR50_i" required><br><br>
+
+        <label for="petroR50_r">petroR50_r:</label>
+        <input type="text" id="petroR50_r" name="petroR50_r" required><br><br>
+
+        <label for="petroR50_z">petroR50_z:</label>
+        <input type="text" id="petroR50_z" name="petroR50_z" required><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
